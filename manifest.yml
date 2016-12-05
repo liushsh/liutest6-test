@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: liutest6
+  host: liutest6
+  disk_quota: 1024M
+  services:
+  - dashDB for Analytics-bd
